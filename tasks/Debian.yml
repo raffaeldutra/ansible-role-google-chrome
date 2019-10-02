@@ -1,0 +1,24 @@
+---
+- name: Google Chrome | Add gpg
+  apt_key:
+    url: https://dl.google.com/linux/linux_signing_key.pub
+    state: present
+
+- name: Google Chrome | Apt Repository
+  apt_repository:
+    repo: deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main
+    state: present
+    filename: google-chrome
+    update_cache: yes
+
+- name: Google Chrome | Installing latest version
+  apt:
+    name: google-chrome-stable
+  when:
+    - version is not defined
+
+- name: Google Chrome | Installing version "{{ version }}"
+  apt:
+    name: "google-chrome-stable={{ version }}"
+  when:
+    - version is defined
