@@ -1,12 +1,11 @@
 Google Chrome
 =============
 
-[![Ansible Galaxy](https://img.shields.io/badge/galaxy-nginxinc.nginx-5bbdbf.svg)](https://galaxy.ansible.com/ansible_role_google_chrome)
-[![Build Status](https://travis-ci.org/nginxinc/ansible-role-nginx.svg?branch=master)](https://travis-ci.org/ansible_role_google_chrome)
+[![Build Status](https://img.shields.io/travis/raffaeldutra/ansible-role-google-chrome/master)](https://travis-ci.org/ansible_role_google_chrome)
 
 Simple installation for Google Chrome.
 
-Requirements
+Requirements![Travis (.org) branch](https://img.shields.io/travis/raffaeldutra/ansible-role-google-chrome/master)
 ------------
 
 ```yaml
