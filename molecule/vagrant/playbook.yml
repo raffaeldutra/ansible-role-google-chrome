@@ -3,4 +3,4 @@
   hosts: all
   become: true
   roles:
-    - role: google-chrome
+    - role: raffaeldutra.ansible_role_google_chrome
