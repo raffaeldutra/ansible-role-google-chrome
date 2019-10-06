@@ -5,7 +5,7 @@ Google Chrome
 
 Simple installation for Google Chrome.
 
-Requirements![Travis (.org) branch](https://img.shields.io/travis/raffaeldutra/ansible-role-google-chrome/master)
+Requirements
 ------------
 
 ```yaml
