@@ -1,9 +1,5 @@
 Google Chrome
 =============
-<<<<<<< HEAD
-
-=======
->>>>>>> 620738d7e9816f78c412e96a814fed9cbdf20f7b
 ![Ansible Galaxy](https://img.shields.io/badge/Ansible%20Galaxy-Google%20Chrome%20Role-blue) [![Build Status](https://img.shields.io/travis/raffaeldutra/ansible-role-google-chrome/master)](https://travis-ci.org/ansible_role_google_chrome)
 
 Simple installation for Google Chrome.
